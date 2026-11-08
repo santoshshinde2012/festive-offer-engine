@@ -39,6 +39,8 @@ The [original results](docs/results/readme.md) and [earlier runtime capture](doc
 
 ## Tests and static checks
 
+Verification runs locally. GitHub Actions and GitHub billing setup are not required.
+
 ```bash
 PYTHONPATH=src python3 -m unittest discover -s tests -v
 python3 -m unittest discover -s tools/tests -v
