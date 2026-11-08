@@ -39,7 +39,7 @@ The [original results](docs/results/readme.md) and [earlier runtime capture](doc
 
 ## Tests and static checks
 
-Verification runs locally. GitHub Actions and GitHub billing setup are not required.
+Verification runs locally without GitHub billing setup. The optional GitHub workflow uses a [standard Linux runner, free for public repositories](https://docs.github.com/en/actions/concepts/billing-and-usage). No billing setup is required for these checks in this public repository.
 
 ```bash
 PYTHONPATH=src python3 -m unittest discover -s tests -v
