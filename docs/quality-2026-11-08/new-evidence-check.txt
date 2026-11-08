@@ -1,0 +1,34 @@
+{
+  "run_id": "standalone_20261108",
+  "test_execution_repeated": false,
+  "table_count": 13,
+  "report_count": 2,
+  "canonical_hashes_verified": 15,
+  "publication_revision": "synthetic_rules_v1",
+  "source_count": 8,
+  "approved_count": 7,
+  "quarantine_count": 1,
+  "budget_conserved": true,
+  "replay_matches_native": true,
+  "application_count": 3,
+  "owed_count": 1,
+  "owed_total_paise": 120000,
+  "fulfilled_count": 1,
+  "fulfilled_total_paise": 120000,
+  "reconciliation_required_count": 0,
+  "batch_decision_count": 24,
+  "batch_ranked_count": 4,
+  "approved_decision_count": 21,
+  "approved_ranked_count": 4,
+  "evidence_file_hashes_verified": 25,
+  "test_result": {
+    "count": 99,
+    "duration_seconds": 5.296,
+    "status": "OK",
+    "discovered": 121,
+    "skipped": 22
+  },
+  "captured_source_tree_sha256": "69ae3cfc4e91bb3c2d8e1b0d54642f19b65a9fc547d159d233892f9cfb669c75",
+  "syntax_files_checked": 69
+}
+Read-only saved-output verification; no tests, payment dispatch or cloud action was performed.

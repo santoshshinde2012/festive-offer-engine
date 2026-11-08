@@ -1,0 +1,4 @@
+# Retained evidence is byte-hashed; checkout must preserve its original bytes.
+docs/** -text
+# CSV writers use CRLF records, which are valid evidence rather than whitespace defects.
+*.csv -text whitespace=cr-at-eol

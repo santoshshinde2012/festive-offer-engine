@@ -1,0 +1,37 @@
+bundle:
+  name: festive-offer-engine
+  databricks_cli_version: ">=0.269.0"
+
+include:
+  - deployment/jobs.yml
+
+variables:
+  catalog:
+    description: Existing writable Unity Catalog catalog; identifier characters only.
+  export_volume:
+    description: Existing /Volumes/catalog/schema/volume directory for synthetic artifacts.
+
+# No schedules or triggers: deployment creates job definitions without running them.
+# The source library and fixture travel together with the deployed notebook.
+sync:
+  exclude:
+    - output/**
+    - docs/results/**
+    - .venv/**
+    - tests/**
+    - tools/**
+    - '**/__pycache__/**'
+    - '**/*.pyc'
+    - '**/*.sqlite'
+    - '**/*.sqlite-*'
+    - .env
+    - .env.*
+    - runtime.env
+    - '**/runtime.env'
+    - .mypy_cache/**
+    - .ruff_cache/**
+
+targets:
+  dev:
+    default: true
+    mode: development

@@ -1,0 +1,2 @@
+# Optional operational PostgreSQL/Lakebase adapter. The SQLite demo needs none.
+psycopg[binary]>=3.2,<4

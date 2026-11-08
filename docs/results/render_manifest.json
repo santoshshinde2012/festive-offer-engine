@@ -1,0 +1,22 @@
+{
+  "schema_version": 1,
+  "run_id": "documented_results_20261106_final",
+  "evidence_manifest_sha256": "7ac7dda2e8fc7480e230b567e75a3d3b78bc55551aa1f47f3ae358cf8b04b0fd",
+  "source_tree_sha256": "6698d6cb46218a1088db1c54c0628c0ba28652234fb59f18877e8e673bf89a76",
+  "files": {
+    "index.html": "573e3fe871e1ebe19fc5daccac924f253da1d8a9358aaf2578c9462e97125651",
+    "views/01-run-and-tests.html": "d9cbc537b965c14b939eee1e6d0c66ba8b568284a37c3568870c5f22af03ebb9",
+    "views/02-publication.html": "712446b1feb73ca011c6eafeea77df3838ea923b7fe6624cac0d1a1c0359acbc",
+    "views/03-offer-ranking.html": "dfb6315eb46c296fb2660c7e9b32d686eaf25a091040b2f3a0fa97ca7ebaf56c",
+    "views/04-benefit-lifecycle.html": "27821d728c2c1e693aff324b23461c9ea9afa733f6dce37004a8b11c82670191",
+    "views/05-failure-and-recovery.html": "99a10a600b7114460608f38b9456dca1fed026efdead1b8b8af690e96aa2d593",
+    "views/06-ledger-and-replay.html": "0d622f8fc598857c1b3a354a7ffb0b670341f0440ab51c348e6909a720485819",
+    "views/07-execution-boundary.html": "7c2d2e7961a9424f841c9d94824da24f00c9ecee70c591f8a5f8eddbb7c07459"
+  },
+  "documentation_migration": {
+    "local_date": "2026-11-08",
+    "change": "Only index documentation links were updated for the lowercase guide layout; captured views, images and raw run evidence are unchanged.",
+    "original_manifest_sha256": "da192a82681d70c3babac31b2fd1e547f95c9b5d85ed7b54c1c854223658087a",
+    "original_archive": "archive/"
+  }
+}

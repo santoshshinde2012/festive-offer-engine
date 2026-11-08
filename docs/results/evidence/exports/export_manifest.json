@@ -1,0 +1,21 @@
+{
+  "schema_version": 1,
+  "scope": "consistent local SQLite table snapshot; reports obtained before export",
+  "canonical_json_sha256": {
+    "snapshots.json": "c6eea3f0834dbfa3e9497212ce87dcd8b2e311887954764bcfae4c8317bf4b51",
+    "active_snapshot.json": "a32e5e0eb858454efb40c0dfa54bf2eb525558140ab16de18948583e6bdda8d6",
+    "campaign_control.json": "c61ba7d2c4c103a13729532d69aff0064a8e74c02e2f3bd6f378913f1acb2827",
+    "budgets.json": "12526d3fcbee07f7d65e69dfaf8d393c0a2c1eb2124edcaf0d172ca28aaee3f1",
+    "wallets.json": "ab1a2628ab453dc7119a13e60729eec72e8ed8e4b15f543cd1d0ea976fcb2c04",
+    "checkouts.json": "1f1e14e5faf2941291109cc16bcee4cbc4f6ba48c1d86d8c2e4ff55ecb5ee620",
+    "quotes.json": "18139bde4078d244b48b2c1472e78f79665e9965e657c10ecb48613b831d0f31",
+    "applications.json": "d0081094aca264986a56fc62c287939561360eadf12a683356c361556c088503",
+    "customer_usage.json": "a16733b1c9d4d1b91031251a3c205e43d891b1c9e5bcb2db238bcd0a6abb8896",
+    "outbox.json": "30d2e504ce8b89cdbfef9725f13bf9c38f0b163287871158982b8b602ba812b6",
+    "inbox.json": "084e72c924bb24c0897fb9367cd9efe7da91406ec2c9d0c4919a9ca5075593a9",
+    "benefit_obligations.json": "66323e31da87aa5e7db0a0c03ae3a2724fe7ed34a26f07ca33a8caa6066193d7",
+    "events.json": "6a0a01879653aeaa44385f8abe39e335a95d4d92ab2b1a066f19c9d582536bcd",
+    "replay_report.json": "af02bf8160be7d38d3025d70a16f839099de54eafbf4ea6d6faa4a5a78d0d9e9",
+    "reconciliation_report.json": "4f53cda18c2baa0c0354bb5f9a3ecbe5ed12ab4d8e11ba873c2f11161202b945"
+  }
+}

@@ -1,0 +1,2 @@
+application_id,offer_id,user_id,amount_paise,payout,state,owed_at,fulfilled_at
+6629cc15669c45daa0e31d500574b4a6,diwali_b_cashback,ananya,120000,cashback,FULFILLED,2026-11-05T12:00:00+00:00,2026-11-05T12:00:00+00:00

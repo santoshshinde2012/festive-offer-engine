@@ -1,0 +1,92 @@
+{
+  "run_id": "standalone_20261108",
+  "python": "3.12.6",
+  "scope": "synthetic local SQLite and fake provider; cloud integrations not executed",
+  "publication_manifest": {
+    "revision": "synthetic_rules_v1",
+    "schema_version": 1,
+    "scoring_version": "expected_savings_v1",
+    "source_count": 8,
+    "approved_count": 7,
+    "quarantine_count": 1,
+    "content_sha256": "6f5d20516363db21943fdd5fcc7a744915a2bde45779b3ecbf65eb3ef0319a7e"
+  },
+  "batch_decisions": 24,
+  "batch_ranked": 4,
+  "quoted_offer_expected_paise": {
+    "diwali_b_cashback": 96000,
+    "diwali_a_instant": 75000
+  },
+  "primary_application_stages": {
+    "reserved": {
+      "application_id": "dc21c05acce34204bf741acdfc89cbf8",
+      "payment_id": "merchant_purchase_1001",
+      "offer_id": "diwali_b_cashback",
+      "nominal_paise": 120000,
+      "state": "HELD",
+      "payment_state": "NOT_SENT",
+      "benefit_state": "NONE",
+      "budget_state": "HELD",
+      "provider_reference": "payment_dc21c05acce34204bf741acdfc89cbf8"
+    },
+    "payment_qualified_cashback_owed": {
+      "application_id": "dc21c05acce34204bf741acdfc89cbf8",
+      "payment_id": "merchant_purchase_1001",
+      "offer_id": "diwali_b_cashback",
+      "nominal_paise": 120000,
+      "state": "OWED",
+      "payment_state": "CAPTURED",
+      "benefit_state": "OWED",
+      "budget_state": "COMMITTED",
+      "provider_reference": "payment_dc21c05acce34204bf741acdfc89cbf8"
+    },
+    "cashback_confirmed": {
+      "application_id": "dc21c05acce34204bf741acdfc89cbf8",
+      "payment_id": "merchant_purchase_1001",
+      "offer_id": "diwali_b_cashback",
+      "nominal_paise": 120000,
+      "state": "FULFILLED",
+      "payment_state": "CAPTURED",
+      "benefit_state": "FULFILLED",
+      "budget_state": "COMMITTED",
+      "provider_reference": "payment_dc21c05acce34204bf741acdfc89cbf8"
+    }
+  },
+  "duplicate_payment_refused": true,
+  "definitive_failure": {
+    "application_id": "9af21dbd98a84d3192c099e4a5543c8f",
+    "payment_id": "merchant_purchase_1002",
+    "offer_id": "diwali_a_instant",
+    "nominal_paise": 75000,
+    "state": "RELEASED",
+    "payment_state": "FAILED",
+    "benefit_state": "NONE",
+    "budget_state": "RELEASED",
+    "provider_reference": "payment_9af21dbd98a84d3192c099e4a5543c8f"
+  },
+  "uncertain_after_dispatch": {
+    "application_id": "63d23a8cb5014bba8e84091043533d79",
+    "payment_id": "merchant_purchase_1003",
+    "offer_id": "diwali_b_cashback",
+    "nominal_paise": 120000,
+    "state": "UNKNOWN",
+    "payment_state": "UNKNOWN",
+    "benefit_state": "NONE",
+    "budget_state": "HELD",
+    "provider_reference": "payment_63d23a8cb5014bba8e84091043533d79"
+  },
+  "lookup_without_evidence": "no_definitive_provider_evidence",
+  "lookup_after_capture": "applied",
+  "recovered_application": {
+    "application_id": "63d23a8cb5014bba8e84091043533d79",
+    "payment_id": "merchant_purchase_1003",
+    "offer_id": "diwali_b_cashback",
+    "nominal_paise": 120000,
+    "state": "OWED",
+    "payment_state": "CAPTURED",
+    "benefit_state": "OWED",
+    "budget_state": "COMMITTED",
+    "provider_reference": "payment_63d23a8cb5014bba8e84091043533d79"
+  },
+  "funding_conserved": true
+}

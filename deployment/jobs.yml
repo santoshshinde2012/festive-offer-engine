@@ -1,0 +1,65 @@
+resources:
+  jobs:
+    publish_rules:
+      name: festive-offer-publish-${bundle.target}
+      description: Publish the synthetic contract fixture and immutable completion manifest.
+      max_concurrent_runs: 1
+      queue:
+        enabled: true
+      parameters:
+        - name: repo_root
+          default: ${workspace.file_path}
+        - name: catalog
+          default: ${var.catalog}
+        - name: export_volume
+          default: ${var.export_volume}
+        - name: publication_id
+          default: 'publication_{{job.run_id}}'
+        - name: business_revision
+          default: 'revision_{{job.run_id}}'
+        - name: publish_contracts
+          default: 'true'
+        - name: operational_export_dir
+          default: ''
+        - name: ingestion_id
+          default: ''
+      tasks:
+        - task_key: publish_rules
+          max_retries: 0
+          disable_auto_optimization: true
+          timeout_seconds: 1800
+          notebook_task:
+            notebook_path: ../notebooks/end_to_end_pipeline.py
+            source: WORKSPACE
+
+    import_operations:
+      name: festive-offer-import-${bundle.target}
+      description: Validate a bounded operational export before appending Delta evidence.
+      max_concurrent_runs: 1
+      queue:
+        enabled: true
+      parameters:
+        - name: repo_root
+          default: ${workspace.file_path}
+        - name: catalog
+          default: ${var.catalog}
+        - name: export_volume
+          default: ${var.export_volume}
+        - name: publication_id
+          default: ''
+        - name: business_revision
+          default: ''
+        - name: publish_contracts
+          default: 'false'
+        - name: operational_export_dir
+          default: ''
+        - name: ingestion_id
+          default: 'operations_{{job.run_id}}'
+      tasks:
+        - task_key: import_operations
+          max_retries: 0
+          disable_auto_optimization: true
+          timeout_seconds: 1800
+          notebook_task:
+            notebook_path: ../notebooks/end_to_end_pipeline.py
+            source: WORKSPACE

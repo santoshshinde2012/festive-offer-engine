@@ -1,0 +1,299 @@
+{
+  "schema_version": 1,
+  "run_id": "documented_results_20261106_final",
+  "captured_at_utc": "2026-11-06T14:34:41.316745+00:00",
+  "kind": "browser screenshots of reports rendered from actual retained local evidence; not Databricks or live checkout UI",
+  "browser_version": "Google Chrome 156.0.8078.81",
+  "evidence_manifest_sha256": "7ac7dda2e8fc7480e230b567e75a3d3b78bc55551aa1f47f3ae358cf8b04b0fd",
+  "render_manifest_sha256": "da192a82681d70c3babac31b2fd1e547f95c9b5d85ed7b54c1c854223658087a",
+  "source_tree_sha256": "6698d6cb46218a1088db1c54c0628c0ba28652234fb59f18877e8e673bf89a76",
+  "snapshots": [
+    {
+      "section": "01-run-and-tests",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/01-run-and-tests.html",
+      "html_sha256": "d9cbc537b965c14b939eee1e6d0c66ba8b568284a37c3568870c5f22af03ebb9",
+      "png": "snapshots/01-run-and-tests.png",
+      "png_sha256": "63314a0f78ad8aef6702d87af1c4e5080ce360c35e02059a6ddf1fc1bc02072d",
+      "viewport": {
+        "width": 1600,
+        "height": 1320,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-hnk5wcsj",
+        "--window-size=1600,1320",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/01-run-and-tests.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/01-run-and-tests.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1320",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/01-run-and-tests.png",
+        "file://<results>/views/01-run-and-tests.html"
+      ]
+    },
+    {
+      "section": "02-publication",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/02-publication.html",
+      "html_sha256": "712446b1feb73ca011c6eafeea77df3838ea923b7fe6624cac0d1a1c0359acbc",
+      "png": "snapshots/02-publication.png",
+      "png_sha256": "31a84807256df01ed67a9f9c6d515617b0b974b473097599b699b980c7644ecf",
+      "viewport": {
+        "width": 1600,
+        "height": 910,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-i0r59pcw",
+        "--window-size=1600,910",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/02-publication.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/02-publication.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,910",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/02-publication.png",
+        "file://<results>/views/02-publication.html"
+      ]
+    },
+    {
+      "section": "03-offer-ranking",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/03-offer-ranking.html",
+      "html_sha256": "dfb6315eb46c296fb2660c7e9b32d686eaf25a091040b2f3a0fa97ca7ebaf56c",
+      "png": "snapshots/03-offer-ranking.png",
+      "png_sha256": "ee1aaa8f7fd67353ffa66fbc1906b9ebe5e000548c269471265eac89216fa749",
+      "viewport": {
+        "width": 1600,
+        "height": 1110,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-n2vz3lmf",
+        "--window-size=1600,1110",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/03-offer-ranking.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/03-offer-ranking.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1110",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/03-offer-ranking.png",
+        "file://<results>/views/03-offer-ranking.html"
+      ]
+    },
+    {
+      "section": "04-benefit-lifecycle",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/04-benefit-lifecycle.html",
+      "html_sha256": "27821d728c2c1e693aff324b23461c9ea9afa733f6dce37004a8b11c82670191",
+      "png": "snapshots/04-benefit-lifecycle.png",
+      "png_sha256": "4d8979ad7ab7ba32e28b2cfbf61dcc2e74b1a0c8cdbc80b97bbbdee40c36a550",
+      "viewport": {
+        "width": 1600,
+        "height": 1020,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-000fhpmz",
+        "--window-size=1600,1020",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/04-benefit-lifecycle.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/04-benefit-lifecycle.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1020",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/04-benefit-lifecycle.png",
+        "file://<results>/views/04-benefit-lifecycle.html"
+      ]
+    },
+    {
+      "section": "05-failure-and-recovery",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/05-failure-and-recovery.html",
+      "html_sha256": "99a10a600b7114460608f38b9456dca1fed026efdead1b8b8af690e96aa2d593",
+      "png": "snapshots/05-failure-and-recovery.png",
+      "png_sha256": "f63fd1a0f3132ca6dc6d5a5805cb2b580f024f7864dd66532d84101b1e6b9eb6",
+      "viewport": {
+        "width": 1600,
+        "height": 1100,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-wgrfy00n",
+        "--window-size=1600,1100",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/05-failure-and-recovery.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/05-failure-and-recovery.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1100",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/05-failure-and-recovery.png",
+        "file://<results>/views/05-failure-and-recovery.html"
+      ]
+    },
+    {
+      "section": "06-ledger-and-replay",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/06-ledger-and-replay.html",
+      "html_sha256": "0d622f8fc598857c1b3a354a7ffb0b670341f0440ab51c348e6909a720485819",
+      "png": "snapshots/06-ledger-and-replay.png",
+      "png_sha256": "b9b30312eb86112642f688a2b94681f933281215fd28c153821a7acc09560ff1",
+      "viewport": {
+        "width": 1600,
+        "height": 1370,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-s9183a5j",
+        "--window-size=1600,1370",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/06-ledger-and-replay.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/06-ledger-and-replay.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1370",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/06-ledger-and-replay.png",
+        "file://<results>/views/06-ledger-and-replay.html"
+      ]
+    },
+    {
+      "section": "07-execution-boundary",
+      "run_id": "documented_results_20261106_final",
+      "html": "views/07-execution-boundary.html",
+      "html_sha256": "7c2d2e7961a9424f841c9d94824da24f00c9ecee70c591f8a5f8eddbb7c07459",
+      "png": "snapshots/07-execution-boundary.png",
+      "png_sha256": "523c5141d7c5bccc875a756263ec3a3965c58e690e862961604b9c07446df6a2",
+      "viewport": {
+        "width": 1600,
+        "height": 1050,
+        "device_scale_factor": 1
+      },
+      "command": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-chrome-6kyv878i",
+        "--window-size=1600,1050",
+        "--virtual-time-budget=1200",
+        "--screenshot=/var/folders/ll/2btx3mzx3cv207gm_x_l9kfc0000gn/T/festive-snapshots-ed7ouvxb/07-execution-boundary.png",
+        "file:///Users/santosh/Documents/workspace/blogs/festive-offer-ranking/demo/docs/results/views/07-execution-boundary.html"
+      ],
+      "command_template": [
+        "/Applications/Google Chrome.app/Contents/MacOS/Google Chrome",
+        "--headless",
+        "--disable-gpu",
+        "--no-first-run",
+        "--no-default-browser-check",
+        "--hide-scrollbars",
+        "--force-device-scale-factor=1",
+        "--user-data-dir=<temporary isolated profile>",
+        "--window-size=1600,1050",
+        "--virtual-time-budget=1200",
+        "--screenshot=<results>/snapshots/07-execution-boundary.png",
+        "file://<results>/views/07-execution-boundary.html"
+      ]
+    }
+  ]
+}

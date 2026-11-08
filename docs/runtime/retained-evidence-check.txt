@@ -1,0 +1,32 @@
+{
+  "run_id": "documented_results_20261106_final",
+  "test_execution_repeated": false,
+  "table_count": 13,
+  "report_count": 2,
+  "canonical_hashes_verified": 15,
+  "publication_revision": "synthetic_rules_v1",
+  "source_count": 8,
+  "approved_count": 7,
+  "quarantine_count": 1,
+  "budget_conserved": true,
+  "replay_matches_native": true,
+  "application_count": 3,
+  "owed_count": 1,
+  "owed_total_paise": 120000,
+  "fulfilled_count": 1,
+  "fulfilled_total_paise": 120000,
+  "reconciliation_required_count": 0,
+  "batch_decision_count": 24,
+  "batch_ranked_count": 4,
+  "approved_decision_count": 21,
+  "approved_ranked_count": 4,
+  "evidence_file_hashes_verified": 25,
+  "test_result": {
+    "count": 53,
+    "duration_seconds": 0.612,
+    "status": "OK"
+  },
+  "captured_source_tree_sha256": "6698d6cb46218a1088db1c54c0628c0ba28652234fb59f18877e8e673bf89a76",
+  "syntax_files_checked": 37
+}
+Read-only saved-output verification; no tests, payment dispatch or cloud action was performed.

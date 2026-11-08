@@ -1,0 +1,262 @@
+[
+  {
+    "method": "POST",
+    "path": "/v1/operator/publications",
+    "status": 201,
+    "response": {
+      "revision": "runtime_synthetic_v1",
+      "state": "PREPARED"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/operator/publications/runtime_synthetic_v1/activate",
+    "status": 200,
+    "response": {
+      "revision": "runtime_synthetic_v1",
+      "state": "ACTIVE"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/merchant/wallets",
+    "status": 200,
+    "response": {
+      "accepted": true
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/merchant/checkouts",
+    "status": 200,
+    "response": {
+      "checkout_id": "diwali_ananya"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/quotes",
+    "status": 201,
+    "response": {
+      "decisions": [
+        {
+          "catalog_version": "synthetic-v1",
+          "eligible": true,
+          "eligible_spend_paise": 1000000,
+          "expected_benefit_paise": 96000,
+          "instrument_id": "ananya_b",
+          "issuer": "Bank B",
+          "nominal_benefit_paise": 120000,
+          "offer_id": "diwali_b_cashback",
+          "payout": "cashback",
+          "rank": 1,
+          "realization_probability": "0.80",
+          "rejection_reason": null,
+          "request_id": "diwali_ananya",
+          "run_id": "online_quote",
+          "user_id": "ananya"
+        },
+        {
+          "catalog_version": "synthetic-v1",
+          "eligible": true,
+          "eligible_spend_paise": 1000000,
+          "expected_benefit_paise": 75000,
+          "instrument_id": "ananya_a",
+          "issuer": "Bank A",
+          "nominal_benefit_paise": 75000,
+          "offer_id": "diwali_a_instant",
+          "payout": "instant",
+          "rank": 2,
+          "realization_probability": "1",
+          "rejection_reason": null,
+          "request_id": "diwali_ananya",
+          "run_id": "online_quote",
+          "user_id": "ananya"
+        }
+      ],
+      "expires_at": "2026-11-05T12:01:00+00:00",
+      "quote_id": "aeee0ecdfa4c458fa7e7e0da2e03308e",
+      "revision": "runtime_synthetic_v1"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/applications",
+    "status": 200,
+    "response": {
+      "application_id": "6629cc15669c45daa0e31d500574b4a6",
+      "benefit_state": "NONE",
+      "budget_state": "HELD",
+      "nominal_paise": 120000,
+      "offer_id": "diwali_b_cashback",
+      "payment_id": "runtime_merchant_order_1",
+      "payment_state": "NOT_SENT",
+      "provider_reference": "payment_6629cc15669c45daa0e31d500574b4a6",
+      "state": "HELD"
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/v1/applications",
+    "status": 200,
+    "response": {
+      "application_id": "6629cc15669c45daa0e31d500574b4a6",
+      "benefit_state": "NONE",
+      "budget_state": "HELD",
+      "nominal_paise": 120000,
+      "offer_id": "diwali_b_cashback",
+      "payment_id": "runtime_merchant_order_1",
+      "payment_state": "NOT_SENT",
+      "provider_reference": "payment_6629cc15669c45daa0e31d500574b4a6",
+      "state": "HELD"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/v1/applications/6629cc15669c45daa0e31d500574b4a6",
+    "status": 200,
+    "response": {
+      "application_id": "6629cc15669c45daa0e31d500574b4a6",
+      "benefit_state": "OWED",
+      "budget_state": "COMMITTED",
+      "nominal_paise": 120000,
+      "offer_id": "diwali_b_cashback",
+      "payment_id": "runtime_merchant_order_1",
+      "payment_state": "CAPTURED",
+      "provider_reference": "payment_6629cc15669c45daa0e31d500574b4a6",
+      "state": "OWED"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/v1/applications/6629cc15669c45daa0e31d500574b4a6",
+    "status": 200,
+    "response": {
+      "application_id": "6629cc15669c45daa0e31d500574b4a6",
+      "benefit_state": "FULFILLED",
+      "budget_state": "COMMITTED",
+      "nominal_paise": 120000,
+      "offer_id": "diwali_b_cashback",
+      "payment_id": "runtime_merchant_order_1",
+      "payment_state": "CAPTURED",
+      "provider_reference": "payment_6629cc15669c45daa0e31d500574b4a6",
+      "state": "FULFILLED"
+    }
+  },
+  {
+    "method": "GET",
+    "path": "/v1/operator/report",
+    "status": 200,
+    "response": {
+      "conservation": [
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "diwali_a_instant"
+        },
+        {
+          "available_paise": 380000,
+          "committed_paise": 120000,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "diwali_b_cashback"
+        },
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "diwali_c_unheld"
+        },
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "christmas_a_instant"
+        },
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "christmas_b_cashback"
+        },
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "diwali_a_wrong_network"
+        },
+        {
+          "available_paise": 500000,
+          "committed_paise": 0,
+          "conserved": true,
+          "funding_paise": 500000,
+          "held_paise": 0,
+          "offer_id": "diwali_other_merchant"
+        }
+      ],
+      "owed_not_fulfilled": [],
+      "reconciliation_required": [],
+      "replay_budget_reconciliation": [
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "diwali_a_instant"
+        },
+        {
+          "events_committed_paise": 120000,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "diwali_b_cashback"
+        },
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "diwali_c_unheld"
+        },
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "christmas_a_instant"
+        },
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "christmas_b_cashback"
+        },
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "diwali_a_wrong_network"
+        },
+        {
+          "events_committed_paise": 0,
+          "events_held_paise": 0,
+          "matches_native_state": true,
+          "offer_id": "diwali_other_merchant"
+        }
+      ],
+      "replay_totals_paise": {
+        "benefit_fulfilled": 120000,
+        "liability_reserved": 120000,
+        "payment_qualified_benefit_owed": 120000
+      }
+    }
+  }
+]

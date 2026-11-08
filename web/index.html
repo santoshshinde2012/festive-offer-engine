@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="referrer" content="no-referrer">
+  <title>E-Shop · Festive offer reference checkout</title>
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <main>
+    <header class="page-header">
+      <span class="eyebrow">E-SHOP / SYSTEM DESIGN COMPANION</span>
+      <h1>A useful offer.<br>A traceable outcome.</h1>
+      <p class="lead">Compare eligible offers, apply one and follow its payment and benefit states separately.</p>
+      <p class="reference-note"><strong>Synthetic reference checkout.</strong> These rules and payment events are examples. This is not a live bank checkout.</p>
+    </header>
+
+    <section class="panel" aria-labelledby="checkout-heading">
+      <div class="section-heading"><span class="step" aria-hidden="true">1</span><h2 id="checkout-heading">Load your checkout</h2></div>
+      <p>The merchant has already supplied the basket and verified payment instruments. Your credential identifies which checkout you can access.</p>
+      <form id="checkout-form">
+        <div class="input-grid">
+          <div><label for="checkout-id">Checkout ID</label><input id="checkout-id" name="checkout-id" required maxlength="200" placeholder="ID from the reference setup" autocomplete="off" spellcheck="false"></div>
+          <div><label for="customer-token">Customer credential</label><input id="customer-token" name="customer-token" type="password" maxlength="4096" placeholder="Paste your customer bearer token" autocomplete="off" spellcheck="false" aria-describedby="credential-note"></div>
+        </div>
+        <p class="hint" id="credential-note">Held only in this page’s memory. We do not save the credential in browser storage.</p>
+        <div class="actions"><button id="quote-button" type="submit">Find eligible offers <span aria-hidden="true">→</span></button><button id="forget-button" class="quiet" type="button">Forget credential and reset</button></div>
+      </form>
+    </section>
+
+    <div id="message" class="message" role="status" aria-live="polite" tabindex="-1" hidden></div>
+
+    <section id="offers-panel" class="panel" aria-labelledby="offers-heading" hidden>
+      <div class="section-heading"><span class="step" aria-hidden="true">2</span><h2 id="offers-heading">Choose the value that works for you</h2></div>
+      <p>Expected value orders the offers using the configured realization assumption. It is not a promise that cashback will arrive. The server checks quote expiry when you apply.</p>
+      <div class="quote-meta"><span id="quote-revision"></span><span id="quote-expiry"></span></div>
+      <fieldset id="offer-options"><legend class="visually-hidden">Eligible offers, ordered by expected value</legend><div id="offer-list" class="offer-list"></div></fieldset>
+      <p id="empty-offers" class="empty" hidden>No eligible offers are available for this checkout. No campaign funds have been reserved.</p>
+      <div id="application-action" hidden>
+        <p class="reserve-note" id="reserve-note">Applying an offer reserves its full contract benefit in the campaign budget. A background worker may then submit the reference payment.</p>
+        <button id="apply-button" type="button" aria-describedby="reserve-note">Apply selected offer</button>
+      </div>
+    </section>
+
+    <section id="status-panel" class="panel" aria-labelledby="status-heading" hidden>
+      <div class="section-heading"><span class="step" aria-hidden="true">3</span><h2 id="status-heading">Follow the outcome</h2></div>
+      <div class="state-row"><span id="application-state" class="state-badge"></span><button id="refresh-button" type="button" class="secondary">Refresh status</button></div>
+      <p id="state-explanation" class="state-explanation"></p>
+      <dl id="status-facts" class="status-facts"></dl>
+      <p class="hint">Payment capture makes an eligible benefit <strong>owed</strong>. Separate matching delivery evidence makes it <strong>fulfilled</strong>. Fulfillment does not refill the campaign budget.</p>
+    </section>
+
+    <footer>Customer actions stay separate from merchant inputs, campaign funding and provider evidence. No payment controls or administrative credentials are needed on this page.</footer>
+  </main>
+</body>
+</html>

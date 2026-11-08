@@ -1,0 +1,14 @@
+output/
+__pycache__/
+*.pyc
+.venv/
+.env
+.env.*
+runtime.env
+.ruff_cache/
+.mypy_cache/
+source-review-package.zip
+.DS_Store
+.pytest_cache/
+*.sqlite
+*.sqlite-*

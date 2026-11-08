@@ -1,0 +1,49 @@
+{
+  "browser": "156.0.8078.81",
+  "playwright": "1.65.0",
+  "source_sha256": {
+    "web/index.html": "4d7f8b9bd2ba02bb8d853be85de77f4a85ced626d2bd6498666d2afcf8297c73",
+    "web/style.css": "bfa9e755f94437162f914040cef20f7adbaa4b3a6361c3b059a0db39340ca8cc",
+    "web/app.js": "b3eabd6ad18cdf06fe976337711c8cccad18b7f4c1137a00baa4135c1d9874d7",
+    "src/festive_offers/online/api.py": "37319c74b0fe01a85c45f69afae3090d091cf40ded9d2a7bc8a566580094c736",
+    "tools/browser_qa_server.py": "eb5fb9991c7c81a0ec551ca8ccf11c32f33abf66fc86f31bf223aba95afe90c1",
+    "tools/browser_qa.cjs": "bc1054ec8275d77ca5d5588f288928b713de83f25ccabfaa82e64cefa482218e"
+  },
+  "scope": "Real Chrome browser against loopback OfferApi + SQLite + synthetic provider; no live payments",
+  "viewport_desktop": {
+    "width": 1280,
+    "height": 960
+  },
+  "viewport_mobile": {
+    "width": 390,
+    "height": 844
+  },
+  "checks": [
+    "page title and static assets loaded",
+    "missing credential has a clear accessible error",
+    "trusted quote shows two eligible offers",
+    "full contract benefit and lower expected value are visible together",
+    "credential field is cleared after use",
+    "credential and retry identity are not persisted in browser storage",
+    "server quote expiry is displayed without browser-clock blocking",
+    "ambiguous apply locks offer changes",
+    "retry reuses the exact idempotency key after server accepted the first request",
+    "successful retry retrieves the same held application",
+    "captured payment visibly remains owed until separate benefit evidence",
+    "desktop has no horizontal overflow",
+    "fulfillment leaves campaign funding committed",
+    "one application, payment and benefit obligation survive retry with conserved funding",
+    "390px mobile has no horizontal overflow",
+    "mobile status action remains visible",
+    "reset clears customer inputs",
+    "reset removes quote and outcome from the page",
+    "reset explains that server-side financial state is retained",
+    "dynamic issuer text cannot inject HTML",
+    "no uncaught browser errors"
+  ],
+  "uncaught_browser_errors": [],
+  "screenshots": [
+    "checkout-desktop-owed.png",
+    "checkout-mobile-fulfilled.png"
+  ]
+}

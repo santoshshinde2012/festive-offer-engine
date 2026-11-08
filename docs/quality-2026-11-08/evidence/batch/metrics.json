@@ -1,0 +1,19 @@
+{
+  "run_id": "standalone_20261108",
+  "metric_scope": "synthetic fixture operations; not model quality or uplift",
+  "request_count": 3,
+  "requests_with_offer": 2,
+  "request_coverage": "0.6666666666666666666666666667",
+  "decision_count": 24,
+  "eligible_decision_count": 4,
+  "rejection_counts": {
+    "merchant_mismatch": 3,
+    "no_eligible_instrument": 6,
+    "outside_window": 8,
+    "unknown_cap": 3
+  },
+  "top_issuer_counts": {
+    "Bank B": 2
+  },
+  "top_issuer_share": "1"
+}

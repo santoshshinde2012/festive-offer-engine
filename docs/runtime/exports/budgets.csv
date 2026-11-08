@@ -1,0 +1,8 @@
+offer_id,funding_paise,available_paise,held_paise,committed_paise
+diwali_a_instant,500000,500000,0,0
+diwali_b_cashback,500000,380000,0,120000
+diwali_c_unheld,500000,500000,0,0
+christmas_a_instant,500000,500000,0,0
+christmas_b_cashback,500000,500000,0,0
+diwali_a_wrong_network,500000,500000,0,0
+diwali_other_merchant,500000,500000,0,0

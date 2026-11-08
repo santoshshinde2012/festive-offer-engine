@@ -1,0 +1,237 @@
+{
+  "schema_version": 1,
+  "run_id": "runtime_final_verified_20261107",
+  "captured_at_utc": "2026-11-07T16:45:48.269617+00:00",
+  "capture_started_at_utc": "2026-11-07T16:45:42.978633+00:00",
+  "capture_duration_seconds": 5.37454758300737,
+  "command": [
+    "/Users/santosh/Documents/workspace/blogs/articles/043-festive-offer-ranking/code/run_demo.sh",
+    "--run-id",
+    "runtime_final_verified_20261107"
+  ],
+  "working_directory": "/Users/santosh/Documents/workspace/blogs/articles/043-festive-offer-ranking/code",
+  "exit_code": 0,
+  "runtime": {
+    "python": "3.12.6",
+    "implementation": "CPython",
+    "platform": "macOS-26.7.1-arm64-arm-64bit",
+    "sqlite": "3.45.3",
+    "python_executable": "/Library/Frameworks/Python.framework/Versions/3.12/bin/python3"
+  },
+  "test_result": {
+    "count": 77,
+    "duration_seconds": 5.01,
+    "status": "OK",
+    "discovered": 91,
+    "skipped": 14
+  },
+  "verification": {
+    "table_count": 13,
+    "report_count": 2,
+    "canonical_hashes_verified": 15,
+    "publication_revision": "synthetic_rules_v1",
+    "source_count": 8,
+    "approved_count": 7,
+    "quarantine_count": 1,
+    "budget_conserved": true,
+    "replay_matches_native": true,
+    "application_count": 3,
+    "owed_count": 1,
+    "owed_total_paise": 120000,
+    "fulfilled_count": 1,
+    "fulfilled_total_paise": 120000,
+    "reconciliation_required_count": 0,
+    "batch_decision_count": 24,
+    "batch_ranked_count": 4,
+    "approved_decision_count": 21,
+    "approved_ranked_count": 4
+  },
+  "syntax_check": {
+    "artifact": "syntax_check.json",
+    "status": "OK",
+    "checked_count": 51
+  },
+  "source": {
+    "tree_sha256": "17262c6e9038ea2099d2dd3561237f2989bf6463d35d2ca6094d476a7c7407f6",
+    "files": {
+      "data/dataset.json": "e6dea0e5113ce3bbfee74bc53d5c6524efc1e88735e11af8ed512df030691012",
+      "databricks.yml": "f99cb70090a4913125f6a60dfbbd4c0d2af08480c4bc350b8c232a3c5629ecc7",
+      "deployment/jobs.yml": "3b0fdf0c8c26bb75ab0c9d1f3161876112f9b6e5477c18743f5d24f5f450f9ac",
+      "notebooks/end_to_end_pipeline.py": "ab6e4b3ea8da404d16c0e75ba95c3ee08e1f328ab012cccf4aa115e53024f258",
+      "notebooks/festive_offer_demo.py": "b6785a33fc0fa231f6244c52d42f30a317da60802269d35134ce0ad9ee4bfd40",
+      "record_results.sh": "7ec56126efa7a94af6b034d6fe7b1d2a81038bfea8c6ef5eebb08356f848da2b",
+      "requirements-databricks.txt": "383b65cf3a0eefff3ef3f88b8f01e271f0d4fa1d2b399a36714e80487d93cd73",
+      "requirements-postgres.txt": "5ab149ca3814cb48288324453da995b06bd35e3e0cd26d04f515a9308dba7a02",
+      "requirements-test-postgres.txt": "b2ebe0ff97680e9911a49918f53b9b25dec931e44162d4ff1177225ebfe52f75",
+      "requirements.txt": "6846aa7c14cee038dd96b20320112a608ddf12b2bc80884d5a352b81788b94f0",
+      "run_demo.sh": "f565488bda96fd19bb3f4918094fdfeafd26c3902b0524aacba6da86e5ddbbba",
+      "run_end_to_end.sh": "1db4fd1a6d65768ccbe9cf585feaa52e7a5394694ac3cb9ede9b2c89a0b629c7",
+      "run_local.sh": "3008160547f11a010a09433feca997983e36c16a884ca2439648db5ffed02d8e",
+      "run_runtime_demo.sh": "e2764180cac144036e1e126dd334875e77100fda6e8f200c94d52533f9b8c909",
+      "sql/inspect_end_to_end.sql": "12729d04b06c3318a2fd76f4e588d9a1ac13898dfa376b251c7a7454c972b43b",
+      "sql/inspect_run.sql": "6cac74559582ed80d619fc2ba01af4cd6d6b40ac064b4aaa19285dfc4869f15f",
+      "src/festive_offers/__init__.py": "e4606c523021bf9a6f0775001e7f86e00fa5536d4d6ff6308c68a01c894f15c8",
+      "src/festive_offers/demo.py": "8f3d7eca9f0be6a88dc43ce8bc04398feb6cacdf1f881488aff14a92088898c2",
+      "src/festive_offers/io.py": "6ea55dc67fa2f5f8ba2d2899c2420b4b0a7079ad0f13993957a74cbe875e1dde",
+      "src/festive_offers/metrics.py": "f04699c3ca9db7a4a4173952ff28076f493283698631a3d9fefb83a720b43e1b",
+      "src/festive_offers/models.py": "c326f7f6054ce1697951108b363d6f30375824b789b09f840612d34f4392a957",
+      "src/festive_offers/online/__init__.py": "863bf9a3de31afef2e13276b85af7dcf2669974878adf962ff07f0e7259190b2",
+      "src/festive_offers/online/admission_service.py": "bbe9b6c8b728a36128677e65b6208773c634822768ca110b9839daee825852ba",
+      "src/festive_offers/online/api.py": "37319c74b0fe01a85c45f69afae3090d091cf40ded9d2a7bc8a566580094c736",
+      "src/festive_offers/online/evidence_service.py": "20e7417158f14e28563ca47716b6f5a29399be9af6649c65a5052b43f1633723",
+      "src/festive_offers/online/http_provider.py": "9ec27fca4d44be585e6887614c797719fa7b802caa9e666f98554905db9b44bc",
+      "src/festive_offers/online/lakebase.py": "05c0b413e84ce2077dcade1b31740c2e0107826da9287f056525526e113b5260",
+      "src/festive_offers/online/models.py": "525666b07487860e2f42e0030f51dd1c20c6c9948a979df235e83551a5f78e05",
+      "src/festive_offers/online/payment_service.py": "82aca0efd19f8bdb3d3fabce9c9a67ea1345e9a4268dd63f63f4549a6db55a9a",
+      "src/festive_offers/online/policy.py": "bae646c8af3881304e31bde963220a01364b9ef32efd5686a6aaff40b18b01f2",
+      "src/festive_offers/online/ports.py": "2b856cedb899d513d7efe1e9ccba1daaced6069ecd7e280cf46b56f59eb75c4d",
+      "src/festive_offers/online/postgres_repository.py": "f4237007521ac8262b0694c27f0785b32e9c0ae504b01b37d4eeddbf010bfd3c",
+      "src/festive_offers/online/postgres_store.py": "7e4655336ece24d7bf2c5399f12243887424d0f51df879e7075ca703d03d14a7",
+      "src/festive_offers/online/provider.py": "3bd3e154e1f63fa4ee51645a7019ccaa90d56c12e33d15788a2a4516de093dac",
+      "src/festive_offers/online/publication.py": "fa265c2fbc98cbe5a35318538be2dbc93f65029c08b51da5e6060fc1720798a0",
+      "src/festive_offers/online/publication_service.py": "4b3aaa631da16792341ea2f7bd349a9b0b74cff60b202ea75272ace0f45cbb22",
+      "src/festive_offers/online/quote_service.py": "fccf2ee37a52649a96220b7981647d4385e8205b77b10b2a6da1e59ebb51d912",
+      "src/festive_offers/online/reporting_service.py": "cc788104786ca43357ea083a07cff73958943ca9fe56f48b9d642f4ea7dc719f",
+      "src/festive_offers/online/runtime.py": "6071324da82eeb347b7cfdc55b30fa8449b4275f30583184aca14243a27e347f",
+      "src/festive_offers/online/runtime_demo.py": "87766b28c7ee49605937e2302be3cdd0cdf876ca87a5b572fab35b29e0b5719a",
+      "src/festive_offers/online/security.py": "bcc43bb2073bf9629c56f28cbc1a16c27af04302f5924f9e3c927f4f472a9688",
+      "src/festive_offers/online/service.py": "fbbb2710fc5d3c3ff31a5dc44bf04bee6296f3af9989afa831f9ad187b032ba3",
+      "src/festive_offers/online/sqlite_repository.py": "351a07c436e3c6289eee5c7e728599f7ac372217ecac268099b42e07f1b97cbb",
+      "src/festive_offers/online/store.py": "9f337845d750737aeedf2f1f3d4acb534d06047dc9ec29c183187782a7ab1296",
+      "src/festive_offers/online/system_demo.py": "60a9fb5c4e6a887765e8133bcbd8d78b64eb18acfde01c70e122e80378a2f6b1",
+      "src/festive_offers/online/worker.py": "c2142f7a89fc39ab4064ab5b5e60b858af1bae603310de23b51e8349144e0bc2",
+      "src/festive_offers/pipeline.py": "15c591ae12d9e18f42217bee118cd265a0ab02a51694f97a9444832faadac8ce",
+      "src/festive_offers/ranking.py": "d952e8a987567c34a15530007d8dc88bf66ffb686272c16b4c533c7aafa73463",
+      "src/festive_offers/serialization.py": "4eb0b524d4c2d5b71105f5a87142675796d6cf5e70132cb7bd3e0b91a84a3c7f",
+      "src/festive_offers/validation.py": "e57c8c215cbc5a3fe7982613e11c37fdb929e8338e9915f16582b8029cc60f41",
+      "tests/test_end_to_end.py": "6e7e93489e92e999a09f2bd0c88445dc32c355615a32e9a92168e5800e8e3c41",
+      "tests/test_http_provider.py": "66a3adeaf63934dea5529e6f7f44a4d2dc426913592307d30771c1b509a296d3",
+      "tests/test_lakebase.py": "360ffa7c23190a1fcc6f1e09804aea94036857056f9b3e430e933f34235dbf56",
+      "tests/test_online_ports.py": "8ff3f9d33a4abfd9b199fe6b23bbf0d3bdab9134c50812c88b15830ea24eed64",
+      "tests/test_postgres_store.py": "674f9bb93f08134a4be94955cc02c3ab2163b55d462bbfaeb7966e49d7f53470",
+      "tests/test_runtime.py": "69ff319a6a29444f2c1008773d504d6babb1ff4141d53b50cfedaf9cedc25f7e",
+      "tests/test_scenario.py": "047c4cae2e8d9ac71f2b3cf28b66053bcccf4cd33daf29008b8f9eff2c3155ec",
+      "tools/__init__.py": "37753043c60446cfb35d2a7bdf2522448657edce0bf46e2091bc4cbcc21eabdd",
+      "tools/browser_qa.cjs": "bc1054ec8275d77ca5d5588f288928b713de83f25ccabfaa82e64cefa482218e",
+      "tools/browser_qa_server.py": "eb5fb9991c7c81a0ec551ca8ccf11c32f33abf66fc86f31bf223aba95afe90c1",
+      "tools/capture_snapshots.py": "98181d37a97e64df19e4dab7720b540b59cdceb97eb56cae7e2b8e63a81c68fe",
+      "tools/prepare_local_runtime.py": "2698445c65f64ab7cbf0535ec3c360c5ff1372d89c5cb570cdc9ee26a467aea3",
+      "tools/record_results.py": "489bf192554327c8d7f88d11ab2823c3a28707fd040ee8c6bf6017c03b38ef72",
+      "tools/results_evidence.py": "5f0cfc62937f3bbd0383883aaac083f98d542069063c87a0710a82aa55944bd1",
+      "tools/results_render.py": "7aa9df63d012f25cb946e3fa661126e755e467967974f12d45265c620ee31611",
+      "tools/tests/test_results_evidence.py": "10af5955fd38497c0d00b67884017f04af7cf4eb7814c561b3c21c8d4c344e6b",
+      "web/app.js": "b3eabd6ad18cdf06fe976337711c8cccad18b7f4c1137a00baa4135c1d9874d7",
+      "web/index.html": "4d7f8b9bd2ba02bb8d853be85de77f4a85ced626d2bd6498666d2afcf8297c73",
+      "web/style.css": "bfa9e755f94437162f914040cef20f7adbaa4b3a6361c3b059a0db39340ca8cc"
+    },
+    "algorithm": "SHA-256 of canonical JSON mapping relative source paths to byte SHA-256"
+  },
+  "artifacts": {
+    "batch/decisions.json": {
+      "sha256": "01a92956e6d80959bd8532479a911c98b7cc3c6cda3161b30370bb7ae9ba593f",
+      "size_bytes": 11876
+    },
+    "batch/metrics.json": {
+      "sha256": "e2d502d47c2b2d4846f15c5441c299c90fb233f4da353cecbffb8ccf25b15670",
+      "size_bytes": 500
+    },
+    "batch/slate.json": {
+      "sha256": "b628b5fa1779a0af48b93c14cfa5cee96a809ebe61f24245f5fc124906543f34",
+      "size_bytes": 1978
+    },
+    "exports/active_snapshot.json": {
+      "sha256": "1e97c3251395f76a6a1563e1eb0c51461cfa1790150d4a235bf1f08e08fb05de",
+      "size_bytes": 93
+    },
+    "exports/applications.json": {
+      "sha256": "93f54768e2f99aa616d62262f991bf91d9831c0c028ad86f326003734d3b3838",
+      "size_bytes": 3113
+    },
+    "exports/benefit_obligations.json": {
+      "sha256": "d67dc2b50f19ed63ece8530229466e2d28a0f7046a8146c5405f1acc553f6f95",
+      "size_bytes": 485
+    },
+    "exports/budgets.json": {
+      "sha256": "0bf24251154eb3716b24496a2320d35a669538d2d82a4dc9b25503227f4f7a29",
+      "size_bytes": 830
+    },
+    "exports/campaign_control.json": {
+      "sha256": "13cc809cdfdec4f4eebe7478a4f719973e2d6171dd6c5eb8ed54c8cf06ee645f",
+      "size_bytes": 328
+    },
+    "exports/checkouts.json": {
+      "sha256": "ee2be06c0d73aa7346cfef8357a69ec661c70c30ae391f2c212ce622bfd0abc2",
+      "size_bytes": 2170
+    },
+    "exports/customer_usage.json": {
+      "sha256": "4a799debdb6686444819d1c971c490c6cfa86cd264c491cc063c21802fe7b775",
+      "size_bytes": 279
+    },
+    "exports/events.json": {
+      "sha256": "2078a7a623a0f661a1725057c21ee9a663cbc8ebad7262c15aca4577628d746a",
+      "size_bytes": 5386
+    },
+    "exports/export_manifest.json": {
+      "sha256": "4fd98228977c308ccc694a455953929a82895a8330127fba85bcfb1a927600be",
+      "size_bytes": 1524
+    },
+    "exports/inbox.json": {
+      "sha256": "9d681bb4cdb87ea709821a5054e417db99c037248342aefb4a6ac5fd97229e18",
+      "size_bytes": 3572
+    },
+    "exports/outbox.json": {
+      "sha256": "1b9ca98b514b1ee1e94b0d9aed140c21b9842e30b64830baced52b360ac04c79",
+      "size_bytes": 532
+    },
+    "exports/quotes.json": {
+      "sha256": "087008544cdf0fe7c13c4e7182cc98cbde994b5d7fa07b8437a114346e2fc7af",
+      "size_bytes": 4591
+    },
+    "exports/reconciliation_report.json": {
+      "sha256": "37517e5f3dc66819f61f5a7bb8ace1921282415f10551d2defa5c3eb0985b570",
+      "size_bytes": 3
+    },
+    "exports/replay_report.json": {
+      "sha256": "58a58c41999e8540a36ee01ce87615eeae35a55a9f6ddf6d2df9cf34083a5d90",
+      "size_bytes": 2219
+    },
+    "exports/snapshots.json": {
+      "sha256": "18dfb185590523ee5bd02935bd6d3550d7e1445a433e5fc9d48084b901bfe307",
+      "size_bytes": 5195
+    },
+    "exports/wallets.json": {
+      "sha256": "4f39a7e93e6859ed2223ee5cfd139424c39496f4e2b3b21bb3c7128da922c019",
+      "size_bytes": 706
+    },
+    "run.log": {
+      "sha256": "7a409221a1fb80c93c797b859b462eda702840c4fd2a681ddc3ff44753ddf709",
+      "size_bytes": 16057
+    },
+    "run_manifest.json": {
+      "sha256": "c4809c42d6c8960b9b91bd2d2de71291133d2c7469677222e797c99f2694b650",
+      "size_bytes": 285
+    },
+    "scenario_summary.json": {
+      "sha256": "bc8fd17a785834f7dd3540152c1e7c0f735a6c14fa326f7f7d333812de618cc3",
+      "size_bytes": 3202
+    },
+    "serving_bundle.json": {
+      "sha256": "eab342982cca70d4d7addcd24ba46c612fbd54f5743afb2132a6fe4cf3d5a86e",
+      "size_bytes": 4255
+    },
+    "source_dataset.json": {
+      "sha256": "e6dea0e5113ce3bbfee74bc53d5c6524efc1e88735e11af8ed512df030691012",
+      "size_bytes": 7851
+    },
+    "syntax_check.json": {
+      "sha256": "fc30aa50412e0ced5f4285839996cfaba9a7ae700c3590e5223a0c5f02a420a5",
+      "size_bytes": 8977
+    }
+  },
+  "boundary": {
+    "execution": "local SQLite + fake provider",
+    "databricks_workspace_executed": false,
+    "postgres_lakebase_executed": false,
+    "real_provider_executed": false
+  }
+}

@@ -1,0 +1,2 @@
+# No third-party dependencies. Python 3.10+ standard library only.
+# Databricks provides PySpark in its notebook environment.

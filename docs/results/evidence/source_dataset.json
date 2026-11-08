@@ -1,0 +1,317 @@
+{
+  "synthetic": true,
+  "description": "Invented campaigns and assumed delayed-benefit probability; not real bank offers.",
+  "offers": [
+    {
+      "offer_id": "diwali_a_instant",
+      "issuer": "Bank A",
+      "merchant": "e_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.10",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 75000,
+      "instrument_rules": [
+        {
+          "product": "bank_a_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "diwali_b_cashback",
+      "issuer": "Bank B",
+      "merchant": "e_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.12",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 120000,
+      "instrument_rules": [
+        {
+          "product": "bank_b_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "cashback",
+      "realization_key": "delayed_cashback",
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "diwali_c_unheld",
+      "issuer": "Bank C",
+      "merchant": "e_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.15",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 150000,
+      "instrument_rules": [
+        {
+          "product": "bank_c_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "diwali_unknown_cap",
+      "issuer": "Bank A",
+      "merchant": "e_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.20",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": null,
+      "instrument_rules": [
+        {
+          "product": "bank_a_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "christmas_a_instant",
+      "issuer": "Bank A",
+      "merchant": "e_shop",
+      "starts_at": "2026-12-20T00:00:00Z",
+      "ends_at": "2026-12-27T00:00:00Z",
+      "rate": "0.10",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 100000,
+      "instrument_rules": [
+        {
+          "product": "bank_a_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "christmas_b_cashback",
+      "issuer": "Bank B",
+      "merchant": "e_shop",
+      "starts_at": "2026-12-20T00:00:00Z",
+      "ends_at": "2026-12-27T00:00:00Z",
+      "rate": "0.15",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 150000,
+      "instrument_rules": [
+        {
+          "product": "bank_b_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "cashback",
+      "realization_key": "delayed_cashback",
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "diwali_a_wrong_network",
+      "issuer": "Bank A",
+      "merchant": "e_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.20",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 200000,
+      "instrument_rules": [
+        {
+          "product": "bank_a_credit",
+          "network": "mastercard",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    },
+    {
+      "offer_id": "diwali_other_merchant",
+      "issuer": "Bank A",
+      "merchant": "other_shop",
+      "starts_at": "2026-11-01T00:00:00Z",
+      "ends_at": "2026-11-15T00:00:00Z",
+      "rate": "0.20",
+      "min_eligible_spend_paise": 500000,
+      "cap_paise": 200000,
+      "instrument_rules": [
+        {
+          "product": "bank_a_credit",
+          "network": "visa",
+          "payment_mode": "purchase"
+        }
+      ],
+      "included_categories": [
+        "electronics",
+        "fashion"
+      ],
+      "excluded_brands": [
+        "excluded_brand"
+      ],
+      "payout": "instant",
+      "realization_key": null,
+      "currency": "INR",
+      "catalog_version": "synthetic-v1"
+    }
+  ],
+  "wallets": [
+    {
+      "user_id": "ananya",
+      "instruments": [
+        {
+          "instrument_id": "ananya_a",
+          "product": "bank_a_credit",
+          "network": "visa",
+          "payment_mode": "purchase",
+          "verified": true
+        },
+        {
+          "instrument_id": "ananya_b",
+          "product": "bank_b_credit",
+          "network": "visa",
+          "payment_mode": "purchase",
+          "verified": true
+        }
+      ]
+    },
+    {
+      "user_id": "empty_wallet",
+      "instruments": []
+    }
+  ],
+  "checkouts": [
+    {
+      "request_id": "diwali_ananya",
+      "user_id": "ananya",
+      "merchant": "e_shop",
+      "at": "2026-11-05T12:00:00Z",
+      "items": [
+        {
+          "category": "electronics",
+          "brand": "example_electronics",
+          "net_amount_paise": 800000
+        },
+        {
+          "category": "fashion",
+          "brand": "example_fashion",
+          "net_amount_paise": 200000
+        }
+      ],
+      "currency": "INR"
+    },
+    {
+      "request_id": "christmas_ananya",
+      "user_id": "ananya",
+      "merchant": "e_shop",
+      "at": "2026-12-24T12:00:00Z",
+      "items": [
+        {
+          "category": "electronics",
+          "brand": "example_electronics",
+          "net_amount_paise": 800000
+        },
+        {
+          "category": "fashion",
+          "brand": "example_fashion",
+          "net_amount_paise": 200000
+        }
+      ],
+      "currency": "INR"
+    },
+    {
+      "request_id": "diwali_empty_wallet",
+      "user_id": "empty_wallet",
+      "merchant": "e_shop",
+      "at": "2026-11-05T12:00:00Z",
+      "items": [
+        {
+          "category": "electronics",
+          "brand": "example_electronics",
+          "net_amount_paise": 800000
+        },
+        {
+          "category": "fashion",
+          "brand": "example_fashion",
+          "net_amount_paise": 200000
+        }
+      ],
+      "currency": "INR"
+    }
+  ],
+  "assumptions": {
+    "delayed_cashback": "0.80"
+  }
+}

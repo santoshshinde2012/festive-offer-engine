@@ -1,0 +1,3 @@
+user_id,instruments_json
+ananya,"[{""instrument_id"":""ananya_a"",""network"":""visa"",""payment_mode"":""purchase"",""product"":""bank_a_credit"",""verified"":true},{""instrument_id"":""ananya_b"",""network"":""visa"",""payment_mode"":""purchase"",""product"":""bank_b_credit"",""verified"":true}]"
+empty_wallet,[]

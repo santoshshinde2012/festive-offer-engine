@@ -1,0 +1,32 @@
+{
+  "scope": "real loopback HTTP, SQLite, restartable workers, fake provider; no Databricks or real payment",
+  "python": "3.12.6",
+  "http_requests": 10,
+  "duplicate_reused": true,
+  "maximum_reserved_paise": 120000,
+  "capture_state": "OWED",
+  "final_state": "FULFILLED",
+  "provider_payments": 1,
+  "worker_runs": [
+    {
+      "expired": 0,
+      "dispatch_attempts": 1,
+      "reconciliation_attempts": 1,
+      "errors": []
+    },
+    {
+      "expired": 0,
+      "dispatch_attempts": 0,
+      "reconciliation_attempts": 1,
+      "errors": []
+    },
+    {
+      "expired": 0,
+      "dispatch_attempts": 0,
+      "reconciliation_attempts": 1,
+      "errors": []
+    }
+  ],
+  "funding_conserved": true,
+  "journal_matches_native_state": true
+}

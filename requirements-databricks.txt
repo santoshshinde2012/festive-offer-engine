@@ -1,0 +1,4 @@
+# Optional external Lakebase Autoscaling application support; not needed by the
+# standard-library SQLite demo or by the Spark notebook on Databricks.
+-r requirements-postgres.txt
+databricks-sdk==0.89.0

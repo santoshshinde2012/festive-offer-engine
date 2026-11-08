@@ -1,0 +1,11 @@
+event_sequence,application_id,kind,payload_json,occurred_at
+1,,snapshot_prepared,"{""approved_count"":7,""content_sha256"":""6f5d20516363db21943fdd5fcc7a744915a2bde45779b3ecbf65eb3ef0319a7e"",""quarantine_count"":1,""revision"":""runtime_synthetic_v1"",""schema_version"":1,""scoring_version"":""expected_savings_v1"",""source_count"":8}",2026-11-05T12:00:00+00:00
+2,,snapshot_activated,"{""revision"":""runtime_synthetic_v1""}",2026-11-05T12:00:00+00:00
+3,,quote_created,"{""quote_id"":""aeee0ecdfa4c458fa7e7e0da2e03308e"",""request_id"":""diwali_ananya"",""revision"":""runtime_synthetic_v1""}",2026-11-05T12:00:00+00:00
+4,6629cc15669c45daa0e31d500574b4a6,liability_reserved,"{""amount_paise"":120000,""offer_id"":""diwali_b_cashback"",""payment_id"":""runtime_merchant_order_1""}",2026-11-05T12:00:00+00:00
+5,6629cc15669c45daa0e31d500574b4a6,dispatch_claimed,"{""provider_reference"":""payment_6629cc15669c45daa0e31d500574b4a6""}",2026-11-05T12:00:00+00:00
+6,6629cc15669c45daa0e31d500574b4a6,dispatch_result,"{""reason"":null,""state"":""PENDING""}",2026-11-05T12:00:00+00:00
+7,6629cc15669c45daa0e31d500574b4a6,payment_qualified_benefit_owed,"{""amount_paise"":120000,""payout"":""cashback""}",2026-11-05T12:00:00+00:00
+8,6629cc15669c45daa0e31d500574b4a6,provider_event_received,"{""disposition"":""applied"",""event_id"":""payment_6629cc15669c45daa0e31d500574b4a6:1"",""kind"":""captured""}",2026-11-05T12:00:00+00:00
+9,6629cc15669c45daa0e31d500574b4a6,benefit_fulfilled,"{""amount_paise"":120000,""payout"":""cashback""}",2026-11-05T12:00:00+00:00
+10,6629cc15669c45daa0e31d500574b4a6,provider_event_received,"{""disposition"":""applied"",""event_id"":""payment_6629cc15669c45daa0e31d500574b4a6:2"",""kind"":""cashback_confirmed""}",2026-11-05T12:00:00+00:00
