@@ -94,4 +94,6 @@ adapter or extension.
 
 ## Standalone extraction check
 
-The fresh `standalone_20261108` capture binds 89 source/configuration files and syntax-checks 69 Python files. A temporary isolated copy also passed static checks, all 22 tooling tests and the complete application scenario. [Isolation transcript](standalone-isolation.txt). The HTTP summary and responses above were refreshed from the standalone repository. The Medium article URL will be added after publication; no local article path is needed to run this source.
+The fresh `standalone_20261108` capture binds 89 source/configuration files and syntax-checks 69 Python files. A temporary isolated copy also passed static checks, all 22 tooling tests and the complete application scenario. [Isolation transcript](standalone-isolation.txt). The HTTP summary and responses above were refreshed from the standalone repository. No local article path is needed to run this source.
+
+**Publication-link update — 9 November 2026:** [Designing Festive Offers with Databricks](https://levelup.gitconnected.com/designing-festive-offers-with-databricks-7335b2535156) was published in Level Up Coding on 8 November 2026, as verified from Medium RSS metadata. The recorded runtime observations and source hashes retain their original identities.

@@ -2,6 +2,8 @@
 
 An end-to-end offer reference that uses fictional E-Shop inputs, SQLite and a durable fake payment provider. No real payment is sent.
 
+This repository accompanies [Designing Festive Offers with Databricks](https://levelup.gitconnected.com/designing-festive-offers-with-databricks-7335b2535156), published in Level Up Coding on 8 November 2026.
+
 The flow validates rules, ranks eligible offers, reserves campaign funding, processes a simulated payment, records cashback owed, confirms delivery separately and exports replayable evidence. PostgreSQL is optional. Databricks notebook/jobs and a Lakebase connector are supplied; cloud execution remains unverified.
 
 ## Run locally
