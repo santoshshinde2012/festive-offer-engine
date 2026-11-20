@@ -72,3 +72,7 @@ python3 -m tools.package_review
 Add `--snapshots` to capture the report with locally installed Chrome/Chromium. Saved-run verification reads retained records and hashes without opening a database, dispatching a payment or rerunning tests. Preserve old manifests with their original source identities.
 
 Generated `output/`, caches, bytecode and `.venv` are disposable. Retained `docs/` evidence is used by verification tests. Private environment files and generated databases are excluded from the review archive.
+
+## Support
+
+[![Buy Me a Coffee](https://img.shields.io/badge/buymeacoffee-black?style=for-the-badge&logo=buymeacoffee&logoColor=white)](https://buymeacoffee.com/santoshshin)
